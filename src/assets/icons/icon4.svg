@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="415" height="382" viewBox="0 0 415 382">
+  <g id="Group_7" data-name="Group 7" transform="translate(-526 -1674)">
+    <g id="Group_5" data-name="Group 5">
+      <rect id="Rectangle_7" data-name="Rectangle 7" width="415" height="382" transform="translate(526 1674)" fill="#1d2025"/>
+    </g>
+    <text id="_04" data-name="04" transform="translate(563 1818)" fill="#d0d9d8" font-size="108" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">04</tspan></text>
+    <text id="WEBSITE_DEVELOPMENT" data-name="WEBSITE
+DEVELOPMENT" transform="translate(563 1939)" fill="#d0d9d8" font-size="40" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">WEBSITE</tspan><tspan x="0" y="53">DEVELOPMENT</tspan></text>
+    <g id="laptop" transform="translate(761.978 1778.55)">
+      <path id="Path_35" data-name="Path 35" d="M126.824,13.335H17.2a4.726,4.726,0,0,0-4.983,4.417v66.26H131.807V17.752A4.726,4.726,0,0,0,126.824,13.335ZM17.2,4.5C8.943,4.5,2.25,10.433,2.25,17.752v75.1H141.772v-75.1c0-7.319-6.693-13.252-14.949-13.252Z" transform="translate(-2.25 -39)" fill="#d0d8d9" fill-rule="evenodd"/>
+      <path id="Path_36" data-name="Path 36" d="M0,27H148.926v1.125c0,1.864-6.251,3.375-13.962,3.375h-121c-2.8,0-7.9-.591-7.9-.591S0,29.312,0,28.125Z" transform="translate(-4.904 31.95)" fill="#d0d8d9"/>
+    </g>
+  </g>
+</svg>

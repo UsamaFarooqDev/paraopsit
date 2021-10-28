@@ -16,7 +16,7 @@
                 </div>
             </div>
            
-            <div class="row">
+            <div class="row s2">
                 <div class="col-sm-3 col-6">
                     <img src="../assets/icons/icon3.svg" class="img-fluid animate__animated animate__fadeInLeft" alt="">
                 </div>
@@ -44,5 +44,14 @@ export default {
     padding: 40px;
     background-color: #2E3740;
     color: white;    
+}
+.s2{
+    margin-top:20px ;
+}
+
+@media screen and (max-width: 900px) {
+    .s2{
+    margin-top:0px ;
+}
 }
 </style>

@@ -3,14 +3,14 @@
     <div class="container">
       <br /><br />
       <div class="row rowm align-items-center">
-        <div class="col-sm-6 text-center">
+        <div class="col-sm-6 col-12 text-center">
           <img
             src="../assets/logoanimation.svg"
             class="img-fluid banner animate__animated animate__slideInLeft"
             alt="banner"
           />
         </div>
-        <div class="col-sm-6 text-center">
+        <div class="col-sm-6 col-12 text-center">
           <h1
             style="color: #d0d9d8"
             class="animate__animated animate__fadeInDown"
@@ -217,7 +217,8 @@ export default {
   font-weight: 600;
   font-size: 16px;
 }
-#banner img{
+.banner{
+  
 margin-bottom: 40px;
 }
 }

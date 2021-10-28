@@ -7,7 +7,7 @@
                 </div>
             </div>
             <div class="row text-center">
-                <div class="offset-lg-2 col-sm-8 offset-lg-2 col-12">
+                <div class="offset-md-2 col-md-8 offset-md-2 col-12">
                     <form action="" method="post">
                         <div class="row">
                             <div class="col-sm-6 col-12">
@@ -58,9 +58,7 @@ export default {
     color: white;
     margin-bottom: 10vh;
 }
-form{
 
-}
 .ipf{
     background-color: #D0D9D8 !important;
     color: black;

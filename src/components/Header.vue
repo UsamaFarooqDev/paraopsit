@@ -52,12 +52,7 @@ export default{
 position: sticky;
 height: 10vh;
 }
-#navbarNav{
-     background: rgba(0, 0, 0, 0.562);
-    padding: 20px;
-    border-radius: 12px;
-    line-height: 40px;
-}
+
 #nav ul li a{
     text-decoration: none;
     color: white;
@@ -77,4 +72,13 @@ height: 10vh;
 #nav .btun:hover{
 color: rgb(56, 55, 55);
 }
+
+@media only screen and (max-width: 960px) {
+   #navbarNav{
+     background: rgba(0, 0, 0, 0.562) !important;
+    padding: 20px;
+    border-radius: 12px;
+    line-height: 40px;
+}
+  }
 </style>

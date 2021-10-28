@@ -10,25 +10,25 @@
 	<div class="container">
 		<div class="row">
 
-			<div class="col-lg-3 stats">
+			<div class="col-lg-3 col-6 stats">
 				<i class="fa fa-code" aria-hidden="true"></i>
 				<div class="counting" data-count="900000">0</div>
 				<h5>Lines of code</h5>
 			</div>
 
-			<div class="col-lg-3 stats">
+			<div class="col-lg-3 col-6 stats">
 				<i class="fa fa-check" aria-hidden="true"></i>
 				<div class="counting" data-count="280">0</div>
 				<h5>Projects done</h5>
 			</div>
 
-			<div class="col-lg-3 stats">
+			<div class="col-lg-3 col-6 stats">
 				<i class="fa fa-user" aria-hidden="true"></i>
 				<div class="counting" data-count="75">0</div>
 				<h5>Happy clients</h5>
 			</div>
 
-			<div class="col-lg-3 stats">
+			<div class="col-lg-3 col-6 stats">
 				<i class="fa fa-coffee" aria-hidden="true"></i>
 				<div class="counting" data-count="999">0</div>
 				<h5>Cups of coffee</h5>

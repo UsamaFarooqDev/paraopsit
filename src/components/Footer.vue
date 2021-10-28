@@ -3,7 +3,7 @@
   <div class="container-fluid footer">
     <div class="container">
       <div class="row">
-        <div class="col-sm-3">
+        <div class="col-sm-3 col-12">
           <img src="../assets/logo.svg" width="200" alt="" />
           <br /><br />
           <p>

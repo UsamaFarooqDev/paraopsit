@@ -2,7 +2,7 @@
   <div class="container-fluid main">
     <div class="conatiner">
       <div class="row align-items-center mx-auto">
-        <div class="col-sm-4 text-end">
+        <div class="col-sm-4 text-center">
           <h1 class="animate__animated animate__fadeInLeft">Our Portfolio</h1>
         </div>
         <div class="col-sm-8 text-center">

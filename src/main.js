@@ -6,6 +6,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 import router from './router'
 import 'animate.css'
 import 'vue-slick-carousel'
+import 'jquery'
 
 
 

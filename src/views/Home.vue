@@ -6,7 +6,7 @@
         <div class="col-sm-6 text-center">
           <img
             src="../assets/logoanimation.svg"
-            class="img-fluid animate__animated animate__slideInLeft"
+            class="img-fluid banner animate__animated animate__slideInLeft"
             alt="banner"
           />
         </div>
@@ -209,5 +209,16 @@ export default {
 .typing {
   font-family: monospace;
   color: white;
+}
+
+@media only screen and (max-width: 900px) {
+#btn-sp {
+  background-color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+#banner img{
+margin-bottom: 40px;
+}
 }
 </style>

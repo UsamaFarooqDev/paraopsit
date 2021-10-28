@@ -2,17 +2,17 @@
   <div class="container-fluid">
     <div class="container main_tags">
       <div class="row text-center animate__animated animate__fadeIn">
-        <div class="col-sm-3">
+        <div class="col-sm-3 col-6">
           <a href="javascript:void(0)" class="btn btn-success" @click="show_web"
             >Web Development</a
           >
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 col-6">
           <a href="javascript:void(0)" class="btn btn-info" @click="show_app">
             App Development
           </a>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 col-6">
           <a
             href="javascript:void(0)"
             class="btn btn-danger"
@@ -20,7 +20,7 @@
             >Graphics Design</a
           >
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 col-6">
           <a
             href="javascript:void(0)"
             class="btn btn-warning"

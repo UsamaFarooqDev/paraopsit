@@ -52,6 +52,12 @@ export default{
 position: sticky;
 height: 10vh;
 }
+#navbarNav{
+     background: rgba(0, 0, 0, 0.562);
+    padding: 20px;
+    border-radius: 12px;
+    line-height: 40px;
+}
 #nav ul li a{
     text-decoration: none;
     color: white;

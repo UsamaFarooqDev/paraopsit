@@ -16,7 +16,7 @@
    <div class="Container-fluid info">
        <div class="container">
            <div class="row align-items-center">
-               <div class=" col-sm-3 animate__animated animate__fadeInLeft">
+               <div class=" col-sm-3 col-12 animate__animated animate__fadeInLeft">
                    <h4>Head Office</h4>
                    <p>
                        Office #12 
@@ -40,7 +40,7 @@
                        www.paraopsit.com
                    </p>
                </div>
-              <div class="col-sm-9 animate__animated animate__fadeInRight">
+              <div class="col-lg-9 col-12 animate__animated animate__fadeInRight">
                   <Contact />
               </div>
            </div>

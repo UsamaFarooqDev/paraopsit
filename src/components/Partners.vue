@@ -7,31 +7,31 @@
                 </div>
             </div>
             <div class="row align-items-center text-center">
-                <div class="col-sm-2 offset-sm-1 box gx-2">
+                <div class="col-sm-2 offset-sm-1 col-3 box gx-2">
                     <img src="../assets/logo/juc.png" class="img-fluid" alt="">
                 </div>
-                <div class="col-sm-2 offset-sm-1 box gx-2">
+                <div class="col-sm-2 offset-sm-1 col-3 box gx-2">
                      <img src="../assets/logo/logggo.png" class="img-fluid" alt="">
                 </div>
-                <div class="col-sm-2 offset-sm-1 box gx-2">
+                <div class="col-sm-2 offset-sm-1 col-3 box gx-2">
                       <img src="../assets/logo/L1.png" class="img-fluid" alt="">
                 </div>
-                <div class="col-sm-2 offset-sm-1 box gx-2">
+                <div class="col-sm-2 offset-sm-1 col-3 box gx-2">
                         <img src="../assets/logo/cl.png" class="img-fluid" alt="">
                 </div>
             </div>
-            <br /> <br />
+            <br>
             <div class="row align-items-center text-center">
-                <div class="col-sm-2 offset-sm-1 box gx-2">
+                <div class="col-sm-2 offset-sm-1 col-3 box gx-2">
                     <img src="../assets/logo/eb.png" class="img-fluid" alt="">
                 </div>
-                <div class="col-sm-2 offset-sm-1 box gx-2">
+                <div class="col-sm-2 offset-sm-1 col-3 box gx-2">
                     <img src="../assets/logo/spectrum.png" class="img-fluid" alt="">
                 </div>
-                <div class="col-sm-2 offset-sm-1 box gx-2">
+                <div class="col-sm-2 offset-sm-1 col-3 box gx-2">
                      <img src="../assets/logo/gloria.png" class="img-fluid" alt="">
                 </div>
-                <div class="col-sm-2 offset-sm-1 box gx-2">
+                <div class="col-sm-2 offset-sm-1 col-3 box gx-2">
                     <img src="../assets/logo/ap.jpg" class="img-fluid" alt="">
                 </div>
             </div>

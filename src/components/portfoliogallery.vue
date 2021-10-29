@@ -46,8 +46,8 @@
           </div>
         </div> 
         <hr>
-          <div class="row align-items-center">
-          <div class="col-sm-6 all animate__animated animate__fadeInLeft">
+          <div class="row align-items-center flex-column-reverse flex-sm-row">
+          <div class="col-sm-6 col-12 all animate__animated animate__fadeInLeft">
              <h2>Points ~ Information Technology</h2>
             <p>
               Pointstechnology is an information technology company. They were 
@@ -56,7 +56,7 @@ we come up with
             </p>
             
           </div>
-          <div class="col-sm-6 all animate__animated animate__fadeInRight">
+          <div class="col-sm-6 col-12  all animate__animated animate__fadeInRight">
            <img
               src="../assets/portfolio/web/pointsit.png"
               class="img-fluid"
@@ -81,8 +81,8 @@ we come up with
             </p>
           </div>
         </div> 
-          <hr>
-          <div class="row align-items-center">
+          <hr> 
+          <div class="row align-items-center flex-column-reverse flex-sm-row">
           <div class="col-sm-6 all animate__animated animate__fadeInLeft">
              <h2>Elation Sounds ~ Store</h2>
             <p>
@@ -138,7 +138,7 @@ their brand is now on touch away from users
           </div>
         </div>
         <hr>
-         <div class="row align-items-center">
+         <div class="row align-items-center flex-column-reverse flex-sm-row">
           <div class="col-sm-6 animate__animated animate__fadeInLeft">
              <h2>Journista ~ Travel App</h2>
            <p>

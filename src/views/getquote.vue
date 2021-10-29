@@ -99,7 +99,7 @@ img{
 }
 .ipb{
     background-color: transparent;
-    color: white;
+    color: white !important;
     font-weight: 500;
     border-radius: 0px;
     padding: 10px;

@@ -39,7 +39,7 @@
                    </p>
                </div>
               <div class="col-lg-9 col-12 animate__animated animate__fadeInRight">
-                  <Contact  />
+                  <Contact :style="{ padding: '10px' }" />
               </div>
            </div>
        </div>
@@ -66,7 +66,7 @@ h1{
 .info{
     margin-top: 10vh;
     margin-bottom: 10vh;
-    padding: 50px;
+   
     background-color: transparent;
     color: #008080;
 }

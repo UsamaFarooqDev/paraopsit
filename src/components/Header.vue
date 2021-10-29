@@ -2,7 +2,7 @@
 
      <nav class="navbar navbar-expand-lg navbar-light header" id="nav">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="../assets/images/logolight.png" width="300" id="log" alt=""></a>
+            <a class="navbar-brand" href="#"><img src="../assets/images/logolight.png" width="250" id="log" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -99,7 +99,17 @@ color: rgb(56, 55, 55);
     background-color: #112233 !important;
     color: white !important;
 }
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
 @media only screen and (max-width: 960px) {
+    .navbar-toggler-icon:focus{
+    border: none !important;
+    box-shadow: none !important;
+}
    #navbarNav{
      background: #008080!important;
     padding: 20px;

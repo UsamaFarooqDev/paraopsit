@@ -1,13 +1,13 @@
 <template>
- <div class="container-fluid main">
+ <div class="container-fluid" id="banner">
  <div class="conatiner">
-     <div class="row align-items-center mx-auto">
-         <div class="col-sm-4 text-center">
-             <h1 class="animate__animated animate__fadeInLeft">Services</h1>
+     <div class="row align-items-center rc">
+         <div class="col-sm-12 text-center">
+             <h1 class="animate__animated animate__fadeInLeft">Our Services</h1>
+             <h6 class="animate__animated animate__fadeInLeft">We Assure The Best Our Customers Get</h6>
+             <p class="animate__animated animate__fadeInLeft">Our Aim Is To Provide High Quality Solutions For Our Clients Problems</p>
          </div>
-         <div class="col-sm-8">
-             <img src="../assets/images/service1.svg" class="banner img-fluid animate__animated animate__fadeIn"  alt="">
-         </div>
+         
      </div>
  </div>
    </div>
@@ -23,7 +23,7 @@ services your company needs
     </div>
     </div>
 </div>
-    <Services :style="{background: '#D0D9D8' , color: '#1F2936'}" />
+    <Services :style="{ color: '#008080'}" />
    <div class="light"></div>
 </template>
 <script>
@@ -40,16 +40,20 @@ export default {
 
 .light{
     padding-top: 50px;
-    background-color: #D0D9D8;
+    background-color: transparent;
 }
 .light h1{
     font-size: 30px;
 }
-.main{
-    margin-top: -10vh;
-    padding-top: 12vh;
-    background-color: #1F2936;
-    color: white;
+.rc{
+    margin-top: 15vh;
+}
+h1{
+    font-size: 80px;
+}
+#banner{
+  height: 600px;
+  margin-bottom: 5vh;
 }
 .banner{
     width: 100%;

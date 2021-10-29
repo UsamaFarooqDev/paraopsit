@@ -53,22 +53,40 @@ export default {
 </script>
 <style scoped>
 .msg{
-    background-color: #2E3740;
-
-    color: white;
+    background-color: #024141bd;
+padding: 20px;
+    color: #fff;
     margin-bottom: 10vh;
+    margin-top: 5vh;
 }
-
+h1{
+    color: #fff;
+}
 .ipf{
-    background-color: #D0D9D8 !important;
-    color: black;
+    background-color: transparent !important;
+    color: white;
     margin-bottom: 15px;
+    border-radius: 0px !important;
+    border: none !important;
+    border-bottom: 1px solid white !important;
+}
+.ipf:focus{
+    box-shadow: none;
+}
+::placeholder{
+    color: white;
 }
 .ipb{
-    background-color: #D0D9D8;
-    color: #2E3740;
-    font-weight: 600;
-    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    border-radius: 0px;
     padding: 10px;
+    border: 2px solid white;
+}
+form{
+    background-color: transparent;
+    padding: 50px;
+    border-radius: 10px;
 }
 </style>

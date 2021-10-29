@@ -30,8 +30,20 @@ export default {
 }
 body{
    font-family: 'Montserrat', sans-serif;
+  background-image: url('./assets/back.png');
+  min-height: 100vh;
+}
+#banner {
+  
+  background: linear-gradient(to Right , #86f0f075 , #00808059);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 90vh;
+  padding: 100px;
+  margin-top: -10vh;
 }
 h1{
     font-family: 'LemonMilk';
+    color: #008080;
 }
 </style>

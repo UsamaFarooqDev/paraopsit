@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-3 col-12">
-          <img src="../assets/logo.svg" width="200" alt="" />
+          <img src="../assets/images/logolight.png" width="200" alt="" />
           <br /><br />
           <p>
             We provide our services in Web Development , App Development , Graphic Design, SEO and Social Media Marketing. 
@@ -63,7 +63,7 @@ export default {
 </script>
 <style scoped>
 .footer {
-  background-color: #2e3740;
+  background-color: #024141bd;
   padding: 50px;
   padding-bottom: 10px;
   color: white;

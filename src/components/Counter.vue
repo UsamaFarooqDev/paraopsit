@@ -83,7 +83,7 @@ export default {
 
 .counter {
   color: white;
-  background-color: #2e3740;
+  background-color: #024141bd;
   padding: 40px;
 }
 section#counter-stats {
@@ -91,16 +91,19 @@ section#counter-stats {
 	justify-content: center;
 	margin-top: 100px;
 }
-
+h1{
+  color: #fff;
+}
 .stats {
   text-align: center;
   font-size: 35px;
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
+  color: #fff;
 }
 
 .stats .fa {
-  color: #008080;
+  color: #fff;
   font-size: 60px;
 }
 </style>

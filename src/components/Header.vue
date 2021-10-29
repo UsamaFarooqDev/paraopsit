@@ -1,8 +1,8 @@
 <template>
 
-     <nav class="navbar navbar-expand-lg navbar-dark" id="nav">
+     <nav class="navbar navbar-expand-lg navbar-dark header" id="nav">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="../assets/logo.svg" width="200" alt=""></a>
+            <a class="navbar-brand" href="#"><img src="../assets/images/logolight.png" width="300" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -35,8 +35,22 @@
    
 </template>
 <script>
-
+import $ from 'jquery';
 export default{
+mounted(){
+
+$(function() {
+    $(window).on("scroll", function() {
+        if($(window).scrollTop() > 50) {
+            $("#nav").addClass("active");
+        } else {
+            //remove the background property so it comes transparent again (defined in your css)
+           $("#nav").removeClass("active");
+        }
+    });
+});
+
+},
 
     name: 'Header',
 }
@@ -46,7 +60,7 @@ export default{
     
     color: white;
    position: fixed;
-   background: rgba(0, 0, 0, 0.5);
+   background: rgba(0, 0, 0, 0);
    top: 0;
    z-index: 200;
 position: sticky;
@@ -55,24 +69,36 @@ height: 10vh;
 
 #nav ul li a{
     text-decoration: none;
-    color: white;
+    color: #112233;
     font-size: 15px;
     font-weight: 500;
     letter-spacing: 2px;
     margin-right: 10px;
 }
 #nav ul li a:hover{
-    color: #D0D9D8;
+    color: #008080;
 }
 #nav .btun{
     border: 1px solid #fff;
-    background-color: #fff !important;
+    background-color: #fff ;
     color: black;
 }
 #nav .btun:hover{
 color: rgb(56, 55, 55);
 }
-
+.active{
+    background-color: white !important;
+    color: #112233 !important;
+    box-shadow: 0 4px 4px #00808042;
+}
+.active ul li a{
+    color: #112233 !important;
+}
+.active .btun{
+       border: 1px solid #445566;
+    background-color: #112233 !important;
+    color: white !important;
+}
 @media only screen and (max-width: 960px) {
    #navbarNav{
      background: rgba(0, 0, 0, 0.562) !important;

@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid main">
+    <div class="container-fluid " id="banner">
        <div class="container main-text">
            <div class="row ">
                <div class="col-sm-12 text-center">
@@ -34,7 +34,7 @@
                             </div>
                             <div class="col-sm-6">
                                
-                                <select class="form-control" aria-placeholder="Select Service">
+                                <select class="form-control ipf" aria-placeholder="Select Service">
                                     <option value="Select Service">Select Service</option>
                                     <option value="Web Development">Web Development</option>
                                     <option value="App Development">App Development</option>
@@ -53,7 +53,7 @@
                         <br /><br />
                         <div class="row">
                             <div class="col-sm-12 text-center">
-                                <input type="submit" value="Submit" class="btn btn-dark">
+                                <input type="submit" value="Submit" class="btn btn-dark ipb">
                             </div>
                         </div>
                     </form>
@@ -69,13 +69,7 @@ export default {
 }
 </script>
 <style scoped>
-.main{
-    margin-top: -10vh;
-    padding-left: 0px;
-    padding-right: 0px;
-    background-color: #2e3740;
-    height: 500px;
-    margin-bottom: 5vh;
+.form-contain h1{
     color: white;
 }
 .main-text h1{
@@ -86,8 +80,33 @@ img{
     width: 100%;
     background-size: cover;
 }
+.ipf{
+    background-color: transparent !important;
+    color: white;
+    margin-bottom: 15px;
+    border-radius: 0px !important;
+    border: none !important;
+    border-bottom: 1px solid white !important;
+}
+.ipf:focus{
+    box-shadow: none;
+}
+::placeholder{
+    color: white;
+}
+.ipb{
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    border-radius: 0px;
+    padding: 10px;
+    border: 2px solid white;
+}
 .form-contain{
-    background-color: #D0D9D8;
+      background-color: #024141bd;
     padding:20px;
+}
+#banner{
+    height: 600px;
 }
 </style>

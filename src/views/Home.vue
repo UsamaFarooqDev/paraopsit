@@ -3,16 +3,11 @@
     <div class="container">
       <br /><br />
       <div class="row rowm align-items-center">
-        <div class="col-sm-6 col-12 text-center">
-          <img
-            src="../assets/logoanimation.svg"
-            class="img-fluid banner animate__animated animate__slideInLeft"
-            alt="banner"
-          />
-        </div>
+      <div class="col-sm-6">
+        <img src="../assets/logoanimation.svg" alt="">
+      </div>
         <div class="col-sm-6 col-12 text-center">
           <h1
-            style="color: #d0d9d8"
             class="animate__animated animate__fadeInDown"
           >
             WHERE INFORMATION
@@ -23,7 +18,7 @@
           <br />
 
           <a
-            href="/getquote"
+            href="getquote"
             class="btn animate__animated animate__fadeInUp"
             id="btn-sp"
             >Let's Start Project</a
@@ -34,14 +29,13 @@
   </div>
   <Services />
  
-  <Partners />
   <!--who we are-->
   <div class="container-fluid wwr" @mouseenter="animatewwr">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-sm-6" id="left">
-          <h1 class="text-white text-center">Who we are?</h1>
-          <p class="text-white">
+          <h1 class=" text-start">Who we are?</h1>
+          <p class="text-start">
             Paraops is an IT Company that provides solution with the motto to
             solve people’s business challenges. Our team creates intuitive user
             experiences wrapped up in beautiful design. From Web Development to
@@ -69,17 +63,17 @@
       <br />
       <div class="row">
         <div class="col-sm-4" id="leftp">
-          <a href="/portfolio"
+          <a href="portfolio"
             ><img src="../assets/icons/creative.svg" class="img-fluid" alt=""
           /></a>
         </div>
         <div class="col-sm-4" id="midp">
-          <a href="/portfolio"
+          <a href="portfolio"
             ><img src="../assets/icons/webapp.svg" class="img-fluid" alt=""
           /></a>
         </div>
         <div class="col-sm-4" id="rightp">
-          <a href="/portfolio"
+          <a href="portfolio"
             ><img src="../assets/icons/branding.svg" class="img-fluid" alt=""
           /></a>
         </div>
@@ -87,12 +81,14 @@
       <br />
       <div class="row">
         <div class="col-sm-12 text-center">
-          <a href="/portfolio" class="btn btn-lg btn-dark">View All</a>
+          <a href="portfolio" class="btn btn-lg btn-dark">View All</a>
         </div>
       </div>
     </div>
   </div>
   <Counter />
+
+    <Partners />
   <!--testimonials-->
   <div class="container-fluid testimonials" @mouseenter="animatetesti">
     <div class="container">
@@ -101,7 +97,7 @@
           <h1>Our Clients Reviews</h1>
         </div>
       </div>
-      <div class="row text-center" id="testi">
+      <div class="row " id="testi">
         <div class="col-sm-3 offset-1">
           <p>
             <i class="fa fa-quote-left fa-4x"></i> I must say working with
@@ -127,7 +123,7 @@
           <h4 class="font-weight-bold">Sheikh Abdul Wasif</h4>
           <h6 class="font-weight-bold my-3">Founder at CBU</h6>
         </div>
-        <div class="col-sm-3 offset-1">
+        <div class="col-sm-3 offset-1 ">
           <p>
             <i class="fa fa-quote-left fa-4x"></i> I'm truly satisfied with your
             administration. ParaOps is simply incredible.I would say
@@ -178,39 +174,49 @@ export default {
 };
 </script>
 <style scooped >
-#banner {
-  background: url(../assets/images/header.gif);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 90vh;
-  padding: 100px;
-  margin-top: -10vh;
-}
+
 .rowm {
-  margin-top: 20vh;
+  margin-top: 10vh;
+ 
+}
+.rowm h1{
+   color:#112233;
 }
 #btn-sp {
-  background-color: white;
+  background-color: transparent;
   font-weight: 600;
   font-size: 25px;
+  color: #008080;
+  border: 2px solid #008080;
 }
 .wwr {
-  background-color: #2e3740;
+
   padding: 50px;
+ 
+}
+.wwr h1{
+  color: #008080;
+}
+.wwr p{
+   color: black;
 }
 .portfolio {
-  background-color: #d0d9d8;
+
   padding: 50px;
 }
 .testimonials {
-  background-color: #d0d9d8;
+ 
   padding: 50px;
 }
 .typing {
   font-family: monospace;
   color: white;
 }
-
+.btn-dark{
+  background-color: transparent !important;
+  color: #008080 !important;
+  border: 2px solid #008080;
+}
 @media only screen and (max-width: 900px) {
 #btn-sp {
   background-color: white;

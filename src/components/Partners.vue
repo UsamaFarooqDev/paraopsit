@@ -49,7 +49,7 @@ export default {
 </script>
 <style scoped>
 .partners{
-    background-color: #D0D9D8;
+    background-color: transparent;
     padding: 30px;
 }
 .box{

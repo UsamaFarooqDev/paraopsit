@@ -42,8 +42,11 @@ export default {
 <style scoped>
 .services{
     padding: 40px;
-    background-color: #2E3740;
-    color: white;    
+    background-color: rgba(255, 255, 255, 0.152);
+    color: #008080;    
+}
+.services h6{
+    color: black;
 }
 .s2{
     margin-top:20px ;

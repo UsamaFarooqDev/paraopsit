@@ -1,14 +1,12 @@
 <template>
-     <div class="container-fluid main">
+     <div class="container-fluid " id="banner">
  <div class="conatiner">
      <div class="row align-items-center mx-auto">
-         <div class="col-sm-4 text-center animate__animated animate__fadeInDown">
+         <div class="col-sm-12 text-center animate__animated animate__fadeInDown">
              <h1>Contact Us</h1>
              <h4>YOU'VE GOT QUESTIONS, WE'VE GOT ANSWERS</h4>
          </div>
-         <div class="col-sm-8 text-center"> 
-             <img src="../assets/images/contact.png" class="banner img-fluid animate__animated animate__fadeInUp" width="500"  alt="">
-         </div>
+        
      </div>
  </div>
    </div>
@@ -41,7 +39,7 @@
                    </p>
                </div>
               <div class="col-lg-9 col-12 animate__animated animate__fadeInRight">
-                  <Contact />
+                  <Contact  />
               </div>
            </div>
        </div>
@@ -58,17 +56,20 @@ export default {
 }
 </script>
 <style scoped>
-.main{
-    margin-top: -10vh;
-    padding-top: 12vh;
-    background-color: #1F2936;
-    color: white;
+
+h1{
+    font-size: 80px;
+    margin-top: 10vh;
 }
 .info{
     margin-top: 10vh;
     margin-bottom: 10vh;
     padding: 50px;
-    background-color: #2e3740;
-    color: white;
+    background-color: transparent;
+    color: #008080;
 }
-</style>
+
+#banner{
+    height: 600px;
+}
+</style>main

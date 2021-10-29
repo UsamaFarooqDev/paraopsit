@@ -59,4 +59,10 @@ h1{
     width: 100%;
     height: 400px;
 }
+@media screen and (max-width: 900px) {
+  h1{
+    font-size: 40px;
+  }
+
+}
 </style>

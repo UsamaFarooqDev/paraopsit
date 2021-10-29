@@ -14,13 +14,13 @@
           <h2>Quick Links</h2>
           <ul>
             <li>
-              <a href="">Our Team</a>
+              <router-link to="/">Our Team</router-link>
             </li>
             <li>
-              <a href="/portfolio">Portfolio</a>
+              <router-link to="/portfolio">Portfolio</router-link>
             </li>
             <li>
-              <a href="/contactus">Contact Us</a>
+              <router-link to="/contactus">Contact Us</router-link>
             </li>
           </ul>
         </div>
@@ -28,10 +28,10 @@
           <h2>Information</h2>
           <ul>
             <li>
-              <a href="/services">Services</a>
+              <router-link to="/services">Services</router-link>
             </li>
             <li>
-              <a href="/getquote">Get Qoute</a>
+              <router-link to="/getquote">Get Qoute</router-link>
             </li>
           </ul>
         </div>

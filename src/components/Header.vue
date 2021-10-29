@@ -1,8 +1,8 @@
 <template>
 
-     <nav class="navbar navbar-expand-lg navbar-dark header" id="nav">
+     <nav class="navbar navbar-expand-lg navbar-light header" id="nav">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="../assets/images/logolight.png" width="300" alt=""></a>
+            <a class="navbar-brand" href="#"><img src="../assets/images/logolight.png" width="300" id="log" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -101,10 +101,35 @@ color: rgb(56, 55, 55);
 }
 @media only screen and (max-width: 960px) {
    #navbarNav{
-     background: rgba(0, 0, 0, 0.562) !important;
+     background: #008080!important;
     padding: 20px;
     border-radius: 12px;
     line-height: 40px;
+    color: white;
+    width: 100%;
+   
+}
+#nav ul li a{
+    text-decoration: none;
+    color: white ;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+.active{
+    background-color: white !important;
+    color: #112233 !important;
+    box-shadow: 0 4px 4px #00808042;
+    height: 10vh !important;
+}
+#log{
+    width:170px;
+}
+#nav .btun{
+    border: 1px solid #fff;
+    background-color: #fff ;
+    color: black;
 }
   }
 </style>

@@ -2,7 +2,7 @@
   <div class="container-fluid" id="banner">
     <div class="container">
       <br /><br />
-      <div class="row rowm align-items-center">
+      <div class="row rowm align-items-center text-center">
       <div class="col-sm-6">
         <img src="../assets/logoanimation.svg" alt="">
       </div>
@@ -17,12 +17,11 @@
           </h1>
           <br />
 
-          <a
-            href="getquote"
+          <router-link
+            to="/getquote"
             class="btn animate__animated animate__fadeInUp"
             id="btn-sp"
-            >Let's Start Project</a
-          >
+            >Let's Start Project</router-link>
         </div>
       </div>
     </div>
@@ -46,7 +45,7 @@
           </p>
         </div>
         <div class="col-sm-6" id="right">
-          <img src="../assets/images/wwr.svg" class="img-fluid" alt="" />
+          <img src="../assets/images/wwr.jpeg" class="img-fluid" alt="" />
         </div>
       </div>
     </div>
@@ -63,25 +62,25 @@
       <br />
       <div class="row">
         <div class="col-sm-4" id="leftp">
-          <a href="portfolio"
+          <router-link to="/portfolio"
             ><img src="../assets/icons/creative.svg" class="img-fluid" alt=""
-          /></a>
+          /></router-link>
         </div>
         <div class="col-sm-4" id="midp">
-          <a href="portfolio"
+          <router-link to="/portfolio"
             ><img src="../assets/icons/webapp.svg" class="img-fluid" alt=""
-          /></a>
+          /></router-link>
         </div>
         <div class="col-sm-4" id="rightp">
-          <a href="portfolio"
+          <router-link to="/portfolio"
             ><img src="../assets/icons/branding.svg" class="img-fluid" alt=""
-          /></a>
+          /></router-link>
         </div>
       </div>
       <br />
       <div class="row">
         <div class="col-sm-12 text-center">
-          <a href="portfolio" class="btn btn-lg btn-dark">View All</a>
+          <router-link to="/portfolio" class="btn btn-lg btn-dark">View All</router-link>
         </div>
       </div>
     </div>

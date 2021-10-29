@@ -72,4 +72,10 @@ h1{
 #banner{
     height: 600px;
 }
+@media screen and (max-width: 900px) {
+  h1{
+    font-size: 40px;
+  }
+
+}
 </style>main

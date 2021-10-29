@@ -1,12 +1,12 @@
 <template>
   <div class="container-fluid" id="banner">
     <div class="conatiner main">
-      <div class="row align-items-center mx-auto">
-        <div class="col-sm-4 text-center">
+      <div class="row align-items-center ">
+        <div class="col-sm-6 text-center">
           <h1 class="animate__animated animate__fadeInLeft">Portfolio</h1>
         </div>
         <div
-          class="col-sm-8 text-center animate__animated animate__fadeInRight"
+          class="col-sm-6 text-center animate__animated animate__fadeInRight"
         >
           <a href="javascript:void(0)" @click="show_web">Web Development</a>
           <br />
@@ -400,5 +400,17 @@ a:hover {
 }
 h1 {
   font-size: 80px;
+  text-align: center;
+}
+@media screen and (max-width: 900px) {
+  h1{
+    font-size: 40px;
+  }
+  a {
+  color: #008080;
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 35px;
+}
 }
 </style>

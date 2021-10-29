@@ -148,6 +148,9 @@ import Contact from "../components/Contactform";
 
 
 export default {
+   mounted () {
+  window.scrollTo(0, 0)
+},
   methods: {
     animatewwr: function () {
       const left = document.getElementById("left");

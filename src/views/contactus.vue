@@ -50,7 +50,9 @@
 
 import Contact from '../components/Contactform';
 export default {
- 
+  mounted () {
+  window.scrollTo(0, 0)
+},
     components: {Contact},
     name: 'contactus',
 }

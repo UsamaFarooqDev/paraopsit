@@ -32,6 +32,9 @@ import Services from '../components/Services';
 
 
 export default {
+     mounted () {
+  window.scrollTo(0, 0)
+},
      components: {Services},
     name:'servicespage',
 }

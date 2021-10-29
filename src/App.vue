@@ -14,6 +14,7 @@ import Footer from './components/Footer';
 
 
 export default {
+ 
   components: {Header, Footer},
   name: 'App',
  

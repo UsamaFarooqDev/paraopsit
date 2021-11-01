@@ -91,6 +91,9 @@ img{
     border: none !important;
     border-bottom: 1px solid white !important;
 }
+.ipf option{
+    color: black;
+}
 .ipf:focus{
     box-shadow: none;
 }

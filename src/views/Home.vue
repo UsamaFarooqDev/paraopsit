@@ -1,12 +1,14 @@
 <template>
+
   <div class="container-fluid" id="banner">
+   
     <div class="container">
       <br /><br />
       <div class="row rowm align-items-center text-center">
-      <div class="col-sm-6">
+      <div class="col-sm-6 col-12">
         <img src="../assets/logoanimation.svg" alt="">
       </div>
-        <div class="col-sm-6 col-12 text-center">
+        <div class="col-sm-6 col-12 ">
           <h1
             class="animate__animated animate__fadeInDown"
           >
@@ -52,7 +54,7 @@
   </div>
 
   <!--Portfolio-->
-  <div class="container-fluid portfolio" @mouseenter="animateportfolio">
+  <div class="container-fluid  portfolio" @mouseenter="animateportfolio">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
@@ -60,21 +62,34 @@
         </div>
       </div>
       <br />
-      <div class="row">
-        <div class="col-sm-4" id="leftp">
-          <router-link to="/portfolio"
-            ><img src="../assets/icons/creative.svg" class="img-fluid" alt=""
-          /></router-link>
+      <div class="row text-center port " >
+        <div class="col-sm-4 text-center" id="leftp">
+          <router-link to="/portfolio">
+          <div class="boxp">
+            <img src="../assets/icons/creativity.png" width="150" alt="">
+            <br>
+            <h5>Creative Development</h5>
+          </div>
+          
+          </router-link>
         </div>
-        <div class="col-sm-4" id="midp">
-          <router-link to="/portfolio"
-            ><img src="../assets/icons/webapp.svg" class="img-fluid" alt=""
-          /></router-link>
+        <div class="col-sm-4 text-center" id="midp">
+          <router-link to="/portfolio">
+            <div class="boxp">
+            <img src="../assets/icons/web.png" width="150" alt="">
+            <br>
+            <h5>Web & App Development</h5>
+          </div>
+          </router-link>
         </div>
-        <div class="col-sm-4" id="rightp">
-          <router-link to="/portfolio"
-            ><img src="../assets/icons/branding.svg" class="img-fluid" alt=""
-          /></router-link>
+        <div class="col-sm-4 text-center" id="rightp">
+          <router-link to="/portfolio">
+            <div class="boxp">
+            <img src="../assets/icons/brand.png" width="150" alt="">
+            <br>
+            <h5>Cooperate Branding</h5>
+          </div>
+          </router-link>
         </div>
       </div>
       <br />
@@ -218,6 +233,30 @@ export default {
   background-color: transparent !important;
   color: #008080 !important;
   border: 2px solid #008080;
+}
+.boxp{
+  width: 300px;
+  height: 300px;
+  border-radius: 60%;
+  background:radial-gradient(#05a8a8,#00808029);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+.boxp h5{
+  color: white;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+}
+#leftp , #midp ,#rightp{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
 }
 @media only screen and (max-width: 900px) {
 #btn-sp {

@@ -7,6 +7,8 @@ import router from './router'
 import 'animate.css'
 import 'vue-slick-carousel'
 import 'jquery'
+import '@fortawesome/free-brands-svg-icons'
+
 
 
 

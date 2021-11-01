@@ -8,28 +8,28 @@
             </div>
             <div class="row text-center">
                 <div class="offset-md-2 col-md-8 offset-md-2 col-12">
-                    <form action="" method="post">
+                    <form @submit.prevent="sendEmail">
                         <div class="row">
                             <div class="col-sm-6 col-12">
-                                <input type="text" class="form-control ipf" placeholder="Name"> 
+                                <input type="text" v-model="name" name="name" required class="form-control ipf" placeholder="Name"> 
                             </div>
                             <div class="col-sm-6 col-12">
-                                <input type="email" class="form-control ipf" placeholder="Email"> 
+                                <input type="email" v-model="email" name="email" required class="form-control ipf" placeholder="Email"> 
                             </div> 
                         </div>
                            
                             <div class="row">
                             <div class="col-sm-6 col-12">
-                                <input type="text" class="form-control ipf" placeholder="Phone Number"> 
+                                <input type="text" v-model="phone" name="phone" required class="form-control ipf" placeholder="Phone Number"> 
                             </div>
                             <div class="col-sm-6 col-12">
-                                <input type="text" class="form-control ipf" placeholder="Subject"> 
+                                <input type="text" v-model="subject" name="subject" class="form-control ipf" placeholder="Subject"> 
                             </div>
                         </div>
                         
                         <div class="row">
                             <div class="col-sm-12">
-                                <textarea name="" placeholder="Message" class="form-control ipf" id="" cols="30" rows="5"></textarea>
+                                <textarea  v-model="msg" name="msg" placeholder="Message" class="form-control ipf" id="" cols="30" rows="5"></textarea>
                             </div>
                         </div>
                         <br /><br />
@@ -47,8 +47,41 @@
 </template>
 
 <script>
+import emailjs from 'emailjs-com';
 export default {
     name: 'Contact',
+    data() {
+    return {
+      name: '',
+      email: '',
+      phone:'',
+      subject: '',
+      message: ''
+    }
+  },
+  methods: {
+    sendEmail(e) {
+      try {
+        emailjs.sendForm('service_hcsus1k', 'template_c6qn1pp', e.target,
+        'user_NzjQHvajhc1V6sNxAflyP', {
+          name: this.name,
+          email: this.email,
+          phone: this.phone,
+          subject: this.subject,
+          message: this.message
+        })
+
+      } catch(error) {
+          console.log({error})
+      }
+      // Reset form field
+      this.name = ''
+      this.email = ''
+      this.phone = ''
+      this.subject = ''
+      this.message = ''
+    },
+  }
 }
 </script>
 <style scoped>

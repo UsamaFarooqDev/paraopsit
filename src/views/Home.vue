@@ -68,7 +68,7 @@
           <div class="boxp">
             <img src="../assets/icons/creativity.png" width="150" alt="">
             <br>
-            <h5>Creative Development</h5>
+            <h5>Creative Designing</h5>
           </div>
           
           </router-link>

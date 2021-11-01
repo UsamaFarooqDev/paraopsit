@@ -34,14 +34,7 @@ body{
   background-image: url('./assets/back.png');
   min-height: 100vh;
 }
-#bannerhome{
-   background-clip: url('./assets/video.mp4');
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 90vh;
-  padding: 100px;
-  margin-top: -10vh;
-}
+
 
 #banner {
   
